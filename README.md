@@ -1,0 +1,2 @@
+# lottery
+Lottery tool.
