@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('DOMContentLoaded', function() {
   var drawButton = document.getElementById('drawButton');
   var resultParagraph = document.getElementById('result');
   var selectionTypeSelect = document.getElementById('selectionType');
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (selectionType === 'choice') {
       var choicesTextarea = document.getElementById('choices');
-	　if (!choicesTextarea.value) {
+      if (!choicesTextarea.value) {
         resultParagraph.textContent = '選択肢を入力してください';
         return;
       }
