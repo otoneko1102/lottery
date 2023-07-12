@@ -1,4 +1,3 @@
 # lottery
-Lottery tool.
-数値抽選と選択肢抽選<br>
+数字や文字列を扱える抽選機能です。<br>
 URL: https://otoneko1102.github.io/lottery/
